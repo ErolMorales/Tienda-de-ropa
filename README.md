@@ -7,11 +7,11 @@ Se requiere el desarrollo de un sitio web responsivo para una tienda de ropa uti
 
 ### Pagina de inicio:
 - [X] La página de inicio debe incluir un banner promocional con una imagen y texto destacado.
-- [X] Debe mostrar una sección destacada con algunos productos destacados de la colección actual.
+- [ ] Debe mostrar una sección destacada con algunos productos destacados de la colección actual.
 - [X] Debe incluir un formulario de suscripción para que los visitantes se suscriban al boletín de noticias.
 
 ### Catálogo de productos:
-- [ ] Debe haber una página de catálogo que muestre todos los productos de la tienda.
+- [X] Debe haber una página de catálogo que muestre todos los productos de la tienda.
 - [ ] Los productos deben mostrarse en forma de cuadrícula con imágenes, título y precio.
 - [ ] Debe ser posible filtrar los productos por categoría (por ejemplo, hombres, mujeres, niños) utilizando botones de filtro.
 
@@ -28,9 +28,9 @@ Se requiere el desarrollo de un sitio web responsivo para una tienda de ropa uti
 
 ## Implementación en DigitalOcean utilizando DigitalOcean Apps
 - [x] Crear una cuenta en DigitalOcean (si no la tienen) y crear una nueva aplicación en DigitalOcean Apps.
-- [X] Configurar la aplicación para que utilice el repositorio Git como fuente de implementación.
-- [X] Configurar el entorno de ejecución de la aplicación (por ejemplo, Node.js, Python, etc.) según las necesidades del proyecto.
-- [X] Implementar la aplicación en DigitalOcean Apps y asegurarse de que esté correctamente configurada y funcione correctamente.
+- [ ] Configurar la aplicación para que utilice el repositorio Git como fuente de implementación.
+- [ ] Configurar el entorno de ejecución de la aplicación (por ejemplo, Node.js, Python, etc.) según las necesidades del proyecto.
+- [ ] Implementar la aplicación en DigitalOcean Apps y asegurarse de que esté correctamente configurada y funcione correctamente.
 
 ## Roles y tareas sugeridas
 
