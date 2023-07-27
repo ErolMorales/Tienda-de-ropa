@@ -1,58 +1,70 @@
-# Proyecto stio de ropa - QA
+# Getting Started with Create React App
 
-## Descripcion
-Se requiere el desarrollo de un sitio web responsivo para una tienda de ropa utilizando el framework Bootstrap. El objetivo es crear una interfaz moderna y atractiva que presente la colección de productos de la tienda de manera elegante y fácil de navegar. Además, se debe utilizar Git para versionar el código y permitir la colaboración entre los estudiantes utilizando forks. Por último, se debe subir el sitio web a DigitalOcean para que esté accesible en línea.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Requisitos del sitio web
+## Available Scripts
 
-### Pagina de inicio:
-- [X] La página de inicio debe incluir un banner promocional con una imagen y texto destacado.
-- [X] Debe mostrar una sección destacada con algunos productos destacados de la colección actual.
-- [X] Debe incluir un formulario de suscripción para que los visitantes se suscriban al boletín de noticias.
+In the project directory, you can run:
 
-### Catálogo de productos:
-- [X] Debe haber una página de catálogo que muestre todos los productos de la tienda.
-- [X] Los productos deben mostrarse en forma de cuadrícula con imágenes, título y precio.
-- [ ] Debe ser posible filtrar los productos por categoría (por ejemplo, hombres, mujeres, niños) utilizando botones de filtro.
+### `npm start`
 
-### Página de detalles del producto:
-- [ ] Al hacer clic en un producto en el catálogo, se debe mostrar una página con los detalles completos del producto.
-- [ ] Debe incluir una imagen grande del producto, título, descripción, precio y opciones de compra (por ejemplo, selección de talla y color).
-- [ ] Debe haber un botón para agregar el producto al carrito de compras.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Carrito de compras:
-- [ ] Debe haber una página de carrito de compras que muestre los productos seleccionados por el usuario.
-- [ ] Debe mostrar una lista de los productos, su cantidad, precio unitario y subtotal.
-- [ ] Debe incluir una funcionalidad para ajustar la cantidad de productos o eliminar productos del carrito.
-- [ ] Debe mostrar el total de la compra y un formulario para que el usuario ingrese su información de envío y pago.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Implementación en DigitalOcean utilizando DigitalOcean Apps
-- [x] Crear una cuenta en DigitalOcean (si no la tienen) y crear una nueva aplicación en DigitalOcean Apps.
-- [ ] Configurar la aplicación para que utilice el repositorio Git como fuente de implementación.
-- [ ] Configurar el entorno de ejecución de la aplicación (por ejemplo, Node.js, Python, etc.) según las necesidades del proyecto.
-- [ ] Implementar la aplicación en DigitalOcean Apps y asegurarse de que esté correctamente configurada y funcione correctamente.
+### `npm test`
 
-## Roles y tareas sugeridas
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Diseñador de interfaz:
-- Encargado de diseñar las páginas del sitio web utilizando los componentes y estilos proporcionados por Bootstrap.
-- Debe asegurarse de que el diseño sea atractivo, coherente y responsivo en diferentes dispositivos.
+### `npm run build`
 
-### Desarrollador FrontEnd:
-- Encargado de implementar el diseño en código utilizando HTML, CSS y Bootstrap.
-- Debe asegurarse de que el sitio web sea responsivo y se vea correctamente en dispositivos móviles, tabletas y escritorios.
-- Debe agregar interacciones y funcionalidades utilizando JavaScript (opcional).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Desarrollador back-end:
-- Encargado de implementar la lógica del carrito de compras y la integración con el formulario de envío y pago.
-- Puede utilizar tecnologías como PHP, Python o cualquier otro lenguaje de programación de su elección.
-- Debe asegurarse de que los datos ingresados por el usuario sean procesados y almacenados correctamente.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Administrador de Git
-- Encargado de crear el repositorio principal en la plataforma de control de versiones (por ejemplo, GitHub).
-- Debe invitar a los demás miembros del equipo a colaborar en el repositorio mediante forks.
-- Debe asegurarse de que los cambios realizados por los estudiantes sean revisados y fusionados correctamente en el repositorio principal.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# Recursos utilizados
-- [Agregar Bootstrap a Nextjs13](https://medium.com/frontendweb/how-to-add-bootstrap-in-next-js-de997371fd9c)
-- [Deploy de NextJS a DigitalOceanApps](https://docs.digitalocean.com/tutorials/app-nextjs-deploy/#creating-a-basic-nextjs-application)
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
