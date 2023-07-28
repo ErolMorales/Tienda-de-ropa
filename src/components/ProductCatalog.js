@@ -115,7 +115,7 @@ const ProductCatalog = () => {
               />
               <div className="card-body">
                 <h5 className="card-title">{product.name}</h5>
-                <p className="card-text">Descripción del producto.</p>
+                <p className="card-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</p>
                 <p className="card-text">Q.{product.price}.00</p>
                 {/* Enlace al detalle del producto */}
                 <Link to={`/product/${product.id}`} className="btn btn-secondary">

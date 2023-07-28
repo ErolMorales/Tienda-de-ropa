@@ -7,13 +7,13 @@ const ProductDetails = () => {
       <div className="row">
         <div className="col-md-6">
           <img
-            src="URL_DE_LA_IMAGEN_DEL_PRODUCTO"
+            src="/images/productos/10.jpg"
             alt="Nombre del producto"
             className="img-fluid"
           />
         </div>
         <div className="col-md-6">
-          <h2>Nombre del producto</h2>
+          <h2>Tenis varios</h2>
           <p>Descripción del producto.</p>
           <p>Precio: Q50.00</p>
           {/* Aquí van las opciones de compra */}
