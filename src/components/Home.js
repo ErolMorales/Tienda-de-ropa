@@ -36,7 +36,7 @@ const Home = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/images/slide/2.JPG"
+            src="/images/slide/2.jpg"
             alt="Slide 2"
             style={{ maxWidth: '300px' }}
           />
@@ -44,7 +44,7 @@ const Home = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/images/slide/3.JPG"
+            src="/images/slide/3.jpg"
             alt="Slide 3"
             style={{ maxWidth: '300px' }}
           />
@@ -52,7 +52,7 @@ const Home = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src='/images/slide/1.JPG'
+            src='/images/slide/3.png'
             alt="Slide 1"
             style={{ maxWidth: '300px' }}
           />
