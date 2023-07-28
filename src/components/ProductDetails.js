@@ -14,7 +14,7 @@ const ProductDetails = () => {
         </div>
         <div className="col-md-6">
           <h2>Tenis varios</h2>
-          <p>Descripción del producto.</p>
+          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</p>
           <p>Precio: Q50.00</p>
           {/* Aquí van las opciones de compra */}
           <div className="mb-3">
